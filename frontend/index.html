@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRM Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CRM Lite – Klienci</h1>
+
+    <form id="clientForm">
+      <input type="text" id="name" placeholder="Imię i nazwisko" required />
+      <input type="email" id="email" placeholder="E-mail" required />
+      <button type="submit">Dodaj klienta</button>
+    </form>
+
+    <h2>Lista klientów</h2>
+    <ul id="clientList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
